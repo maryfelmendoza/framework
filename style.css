@@ -139,22 +139,6 @@ button {
   margin: 0 auto;
 }
 
-@media (max-width: 720px) {
-
-}
-
-@media (min-width: 720px) {
-
-}
-
-@media (max-width: 1024px) {
-
-}
-
-@media (min-width: 1024px) {
-
-}
-
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -255,4 +239,107 @@ nav {
 
 .card-body {
   text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 0;
+}
+
+.footer-links ul,
+.socials ul {
+  list-style-type: none;
+}
+
+.socials li {
+  float: left;
+  padding: 0 32px;
+}
+
+.footer-links {
+  display: flex;
+}
+
+main .chicken img {
+  height: 160px;
+  width: 160px;
+}
+
+section .card-img-top img {
+  height: 160px;
+  width: 160px;
+}
+
+.cards-topics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 22px;
+}
+
+.topics {
+  border: 0;
+  box-shadow: 0 7px 16px 0 rgba(0, 0, 0, 0.05);
+  margin-bottom: 24px;
+  margin-right: 24px;
+}
+
+.btn-topics {
+  background: #cc9543;
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.05);
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 12px 40px;
+}
+
+.btn-blue {
+  background-color: #6abfc3;
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.05);
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 32px;
+}
+
+@media (max-width: 720px) {
+
+}
+
+@media (min-width: 720px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (min-width: 1024px) {
+
 }
